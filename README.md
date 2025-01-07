@@ -174,6 +174,8 @@ create or replace file format csv_format
 ###  Dataset
 select * from rfm_analysis limit 5;
 
+## Snapshot of Dataset
+![Dataset](https://github.com/MAHFUZATUL-BUSHRA/Customer-Segmentation-Using-RFM-Analysis-with-SQL/blob/main/Dataview.png)
 
 ## RFM ANALYSIS With Snowflake
 ### Min,Max and Datediff
@@ -246,3 +248,5 @@ CASE
 END AS CUSTOMER_SEGMENT
 FROM RFM_SEGMENT;
 ```
+## output
+![segment](https://github.com/MAHFUZATUL-BUSHRA/Customer-Segmentation-Using-RFM-Analysis-with-SQL/blob/main/Segment.png)
